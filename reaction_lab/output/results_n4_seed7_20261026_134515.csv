@@ -1,0 +1,5 @@
+persona_id,segment,run,age,living,budget,cans_per_week,price_sensitivity,brand_loyalty,health_concern,channel,coffee,ok,before,after,switch_pct,reason,error
+0,Loyal regulars,0,21,"home with family, commuting to campus",40,7,low,high,low,a grocery store,True,True,7.0,6.5,10.0,"I'm loyal to Voltage and an extra 26 cents a can won't change my habit much, though I might occasionally grab coffee instead.",
+1,Value-seekers,0,22,an off-campus apartment with roommates,7,2,high,low,low,a convenience store,True,False,,,,,ValueError: no JSON found in reply
+2,Occasional buyers,0,22,an off-campus apartment with roommates,16,1,low,low,low,a gas station,True,False,,,,,ValueError: no JSON found in reply
+3,Recent switchers,0,20,"home with family, commuting to campus",11,2,moderate,low,moderate,a grocery store,True,False,,,,,ValueError: no JSON found in reply

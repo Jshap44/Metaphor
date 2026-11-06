@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "persona_version": "0.2",
+  "consumer_id": "consumer_002",
+  "market": "US energy drinks and pre-workout",
+  "profile_type": "self_reported_interview",
+  "metadata": {
+    "source": "User questionnaire responses, 2026-11-03",
+    "real_purchase_data_available": false,
+    "representative_of_market": false,
+    "numeric_price_elasticity_calibrated": false,
+    "notes": "All facts self-reported; decision rules are qualitative summaries, not validated parameters."
+  },
+  "background": {
+    "occupation": "Student",
+    "discretionary_budget": "comfortable to very comfortable"
+  },
+  "consumption": {
+    "frequency": "One energy drink or one serving of pre-workout each morning, typically before workout",
+    "daily_limit": "No more than one energy drink per day",
+    "caffeine_target_mg_per_day": [
+      200,
+      275
+    ],
+    "rest_effect": "Attempts to keep caffeine intake similar regardless of rest",
+    "other_caffeine": "Generally none beyond morning energy drink or pre-workout",
+    "skip_conditions": [
+      "Out of supply at home and insufficient time to purchase elsewhere"
+    ],
+    "at_home_supply_effect": "Usually consumes each morning if stocked"
+  },
+  "product_preferences": {
+    "current_product": "Ghost Legend pre-workout",
+    "current_purchase_interval_days": [
+      30,
+      40
+    ],
+    "favorites": [
+      "Ghost",
+      "Gorilla Mind",
+      "C4"
+    ],
+    "favorite_flavor": "Ghost Ocean Water",
+    "preferred_format": "16 oz cans or single-scoop pre-workout",
+    "flavor_preferences": {
+      "likes": "Novelty flavors and collaborations",
+      "dislikes": [
+        "strictly orange",
+        "strictly grape"
+      ],
+      "exceptions": "Orange or grape blended with other flavors acceptable"
+    },
+    "constraints": [
+      "zero sugar",
+      "transparent ingredient labels"
+    ],
+    "main_selection_criteria": [
+      "Workout effectiveness",
+      "Flavor",
+      "Caffeine level",
+      "Transparent labels"
+    ],
+    "fallback": "C4 commonly available at convenience stores and gas stations",
+    "brand_exploration": "Previously explored brands; now rarely tries unfamiliar brands"
+  },
+  "economics": {
+    "usual_container_or_pack_spend_usd": [
+      25,
+      45
+    ],
+    "max_occasional_single_can_price_usd": 4,
+    "purchase_channels": [
+      "Online primarily",
+      "Gas station or convenience store when away from home"
+    ],
+    "purchase_style": "Pre-workout tubs or canned multipacks, rarely individual cans",
+    "serving_adjustment": "May use less than full scoop when full serving contains 300 mg caffeine",
+    "price_increase_25pct": {
+      "preworkout": "Likely continue Ghost due to usefulness and many servings",
+      "cans": "Likely switch among Ghost and other liked brands"
+    },
+    "price_decrease_50pct": {
+      "response": "Would continue purchasing the favorite brand if its price decreased by 50%.",
+      "interpretation": "Clarified directly by respondent on 2026-11-03; the original response mistakenly referred to a price increase."
+    },
+    "promotions": {
+      "single_can_multibuy": "Little influence",
+      "bulk_multipack": "Large quantity advantages can prompt switching brands"
+    },
+    "lower_budget": "Would continue buying but weigh price more heavily; zero sugar and label transparency remain requirements",
+    "convenience": "Will not go out of way to buy a drink; may skip if rushed"
+  },
+  "behavioral_factors": {
+    "brand_emotional_attachment": "None",
+    "brand_ethics": "Would switch from a liked brand if it supported something strongly opposed or genuinely harmed a community",
+    "health_attitude": "Feels uneasy about health effects but currently values workout and early-day energy benefits",
+    "advertising": "Brand promotion alone not identified as primary driver",
+    "inventory": "Stocking at home increases consistency of consumption"
+  },
+  "decision_guidance": {
+    "suggested_sequence": [
+      "Check whether home supply is available",
+      "Check morning workout context and time constraints",
+      "Check zero-sugar and transparent-label requirements",
+      "Compare effectiveness, flavor, caffeine dose, and serving economics",
+      "Consider convenience and brand ethical concerns",
+      "Choose pre-workout, canned energy drink, or skip"
+    ],
+    "warning": "These are qualitative summaries, not empirically estimated decision probabilities."
+  },
+  "uncertainties": [
+    "Exact brand-level purchasing shares",
+    "Exact count of recent purchases by product",
+    "Whether one scoop refers to full or partial serving on a given day",
+    "Observed response to actual price changes"
+  ],
+  "evaluation": {
+    "blind_tests_completed": 0,
+    "accuracy": null
+  }
+}

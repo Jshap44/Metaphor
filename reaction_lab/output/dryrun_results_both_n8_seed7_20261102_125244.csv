@@ -1,0 +1,17 @@
+persona_id,segment,run,format,age,living,budget,cans_per_week,price_sensitivity,brand_loyalty,health_concern,channel,coffee,ok,before,after,switch_pct,reason,p_same,p_less,p_switch,p_quit
+0,Loyal regulars,0,cans,21,"home with family, commuting to campus",40,7,low,high,low,a grocery store,True,True,6.25,6.01,4.0,"[dry run] synthetic answer, not from a model",,,,
+1,Loyal regulars,0,cans,22,an off-campus apartment with roommates,34,4,moderate,high,low,a convenience store,True,True,3.77,3.62,3.0,"[dry run] synthetic answer, not from a model",,,,
+2,Loyal regulars,0,cans,24,an off-campus apartment with roommates,30,3,moderate,high,low,a grocery store,False,True,2.32,2.2,0.0,"[dry run] synthetic answer, not from a model",,,,
+3,Value-seekers,0,cans,18,an off-campus apartment with roommates,14,2,high,low,moderate,a campus store,False,True,0.95,0.68,51.0,"[dry run] synthetic answer, not from a model",,,,
+4,Value-seekers,0,cans,19,an off-campus apartment with roommates,14,3,high,low,low,a convenience store,True,True,1.06,0.87,21.0,"[dry run] synthetic answer, not from a model",,,,
+5,Occasional buyers,0,cans,21,an off-campus apartment with roommates,32,1,high,moderate,low,a grocery store,False,True,0.16,0.13,27.0,"[dry run] synthetic answer, not from a model",,,,
+6,Occasional buyers,0,cans,21,a dorm,28,2,high,low,low,a campus store,True,True,0.4,0.31,37.0,"[dry run] synthetic answer, not from a model",,,,
+7,Recent switchers,0,cans,21,an off-campus apartment with roommates,22,2,moderate,low,moderate,a grocery store,True,True,0.87,0.79,9.0,"[dry run] synthetic answer, not from a model",,,,
+0,Loyal regulars,0,choice,21,"home with family, commuting to campus",40,7,low,high,low,a grocery store,True,True,5.9,5.8115000000000006,1.0,"[dry run] synthetic answer, not from a model",98.0,1.0,1.0,0.0
+1,Loyal regulars,0,choice,22,an off-campus apartment with roommates,34,4,moderate,high,low,a convenience store,True,True,2.74,2.6043564356435644,2.9702970297029703,"[dry run] synthetic answer, not from a model",93.06930693069307,3.9603960396039604,1.9801980198019802,0.9900990099009901
+2,Loyal regulars,0,choice,24,an off-campus apartment with roommates,30,3,moderate,high,low,a grocery store,False,True,2.09,1.99595,3.0,"[dry run] synthetic answer, not from a model",94.0,3.0,2.0,1.0
+3,Value-seekers,0,choice,18,an off-campus apartment with roommates,14,2,high,low,moderate,a campus store,False,True,0.82,0.704040404040404,8.080808080808081,"[dry run] synthetic answer, not from a model",79.79797979797979,12.121212121212121,6.0606060606060606,2.0202020202020203
+4,Value-seekers,0,choice,19,an off-campus apartment with roommates,14,3,high,low,low,a convenience store,True,True,1.29,1.111188118811881,7.920792079207921,"[dry run] synthetic answer, not from a model",80.1980198019802,11.881188118811881,5.9405940594059405,1.9801980198019802
+5,Occasional buyers,0,choice,21,an off-campus apartment with roommates,32,1,high,moderate,low,a grocery store,False,True,0.19,0.1672,7.0,"[dry run] synthetic answer, not from a model",83.0,10.0,5.0,2.0
+6,Occasional buyers,0,choice,21,a dorm,28,2,high,low,low,a campus store,True,True,0.44,0.3688888888888889,9.090909090909092,"[dry run] synthetic answer, not from a model",76.76767676767676,14.141414141414142,7.070707070707071,2.0202020202020203
+7,Recent switchers,0,choice,21,an off-campus apartment with roommates,22,2,moderate,low,moderate,a grocery store,True,True,1.07,0.93625,7.0,"[dry run] synthetic answer, not from a model",82.0,11.0,5.0,2.0

@@ -1,0 +1,5 @@
+persona_id,segment,run,age,living,budget,cans_per_week,price_sensitivity,brand_loyalty,health_concern,channel,coffee,ok,error
+0,Loyal regulars,0,21,"home with family, commuting to campus",40,7,low,high,low,a grocery store,True,False,TypeError: Messages.create() got an unexpected keyword argument 'temperature'
+1,Value-seekers,0,22,an off-campus apartment with roommates,7,2,high,low,low,a convenience store,True,False,TypeError: Messages.create() got an unexpected keyword argument 'temperature'
+2,Occasional buyers,0,22,an off-campus apartment with roommates,16,1,low,low,low,a gas station,True,False,TypeError: Messages.create() got an unexpected keyword argument 'temperature'
+3,Recent switchers,0,20,"home with family, commuting to campus",11,2,moderate,low,moderate,a grocery store,True,False,TypeError: Messages.create() got an unexpected keyword argument 'temperature'

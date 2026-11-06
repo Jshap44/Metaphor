@@ -1,0 +1,6 @@
+segment,share_of_base_pct,personas,stated_change_pct,stated_low,stated_high,est_volume_change_pct,est_low,est_high,avg_switch_chance_pct
+Loyal regulars,34.0,17,-7.12,-9.35,-5.24,-3.2,-4.21,-2.36,14.1
+Value-seekers,28.0,14,-60.83,-64.26,-57.8,-27.37,-28.92,-26.01,68.93
+Occasional buyers,24.0,12,-32.62,-38.62,-27.45,-14.68,-17.38,-12.35,33.33
+Recent switchers,14.0,7,-47.12,-54.17,-40.57,-21.2,-24.38,-18.25,51.43
+All segments (weighted),100.0,50,-20.5,-23.07,-18.29,-9.23,-10.38,-8.23,39.29

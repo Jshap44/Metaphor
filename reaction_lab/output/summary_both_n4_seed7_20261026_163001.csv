@@ -1,0 +1,11 @@
+format,segment,share_of_base_pct,personas,stated_change_pct,stated_low,stated_high,est_volume_change_pct,est_low,est_high,avg_switch_chance_pct
+cans,Loyal regulars,34.0,1,0.0,0.0,0.0,0.0,0.0,0.0,8.0
+cans,Value-seekers,28.0,1,-60.0,-60.0,-60.0,-27.0,-27.0,-27.0,70.0
+cans,Occasional buyers,24.0,1,-20.0,-20.0,-20.0,-9.0,-9.0,-9.0,25.0
+cans,Recent switchers,14.0,1,-33.33,-33.33,-33.33,-15.0,-15.0,-15.0,40.0
+cans,All segments (weighted),100.0,4,-7.09,-7.09,-7.09,-3.19,-3.19,-3.19,33.92
+choice,Loyal regulars,34.0,1,-14.0,-14.0,-14.0,-6.3,-6.3,-6.3,8.0
+choice,Value-seekers,28.0,1,-72.5,-72.5,-72.5,-32.62,-32.62,-32.62,60.0
+choice,Occasional buyers,24.0,1,-16.0,-16.0,-16.0,-7.2,-7.2,-7.2,12.0
+choice,Recent switchers,14.0,1,-57.5,-57.5,-57.5,-25.87,-25.87,-25.87,45.0
+choice,All segments (weighted),100.0,4,-22.09,-22.09,-22.09,-9.94,-9.94,-9.94,28.7

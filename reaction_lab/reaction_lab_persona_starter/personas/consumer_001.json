@@ -1,0 +1,450 @@
+
+{
+  "schema_version": "1.0",
+  "persona_version": "0.8",
+  "consumer_id": "consumer_001",
+  "market": "US energy drinks",
+  "profile_type": "interview_calibrated_consumer",
+  "last_updated": "2026-11-02",
+
+  "metadata": {
+    "data_source": "Self-reported consumer interview and hypothetical choice tests",
+    "real_purchase_data_available": false,
+    "representative_of_market": false,
+    "confidence_note": "Qualitative preferences are supported by interview responses. Numerical utility weights and price elasticities have not been estimated."
+  },
+
+  "consumption": {
+    "drinks_per_week": {
+      "min": 4,
+      "max": 6,
+      "source": "self_report"
+    },
+    "typical_weekday_first_drink": "08:00",
+    "weekend_behavior": "Often none unless driving, skiing, hiking, or another planned activity",
+    "activity_drink_timing": "Approximately 30 minutes before activity",
+    "evening_drink_window": "18:00-20:00 when expecting a late night",
+    "usual_latest_caffeine_time": "21:00",
+    "late_night_exception": "Going out",
+    "multiple_drinks": "Usually limited to exceptionally long travel days, drives, or study sessions",
+    "skip_conditions": [
+      "Well rested without significant activity",
+      "Low caffeine need",
+      "Expected nap later",
+      "Too close to expected bedtime",
+      "Insufficient time to stop at store",
+      "Long checkout line"
+    ],
+    "primary_motivation": "Caffeine",
+    "secondary_motivations": [
+      "Taste",
+      "Pre-activity ritual",
+      "Brand identity",
+      "Product novelty"
+    ],
+    "other_caffeine": {
+      "coffee": "Occasionally on family vacations",
+      "tea": "Occasionally on family vacations",
+      "other_sources": "Not regularly reported"
+    }
+  },
+
+  "product_preferences": {
+    "primary_brands": [
+      "Red Bull",
+      "Java Monster"
+    ],
+    "red_bull": {
+      "overall_preference": "Very high",
+      "default_product": "Red Bull Original",
+      "default_size_oz": 12,
+      "original_flavor_share_estimate": 0.75,
+      "favorite_alternative_flavor": "Peach",
+      "larger_size_contexts": [
+        "Going out",
+        "Very long study session"
+      ],
+      "novelty_behavior": "Usually tries new Red Bull flavors",
+      "brand_attachment": "Very high",
+      "brand_identity": [
+        "Strong connection to extreme sports",
+        "Enjoys Red Bull athlete content",
+        "Has aspired to become a Red Bull athlete"
+      ],
+      "pre_skiing_ritual": true,
+      "packaging_change_response": "May dislike temporary changes but continues purchasing",
+      "taste_attributes": [
+        "Carbonated",
+        "Bitter",
+        "Enjoyable aftertaste",
+        "Not excessively sweet"
+      ]
+    },
+    "java_monster": {
+      "overall_preference": "Very high",
+      "favorite_flavor": "Salted Caramel",
+      "other_flavors": "Frequently purchased",
+      "preferred_contexts": [
+        "Cold mornings",
+        "Early mornings",
+        "Very tired",
+        "Winter",
+        "Long periods requiring caffeine"
+      ],
+      "taste_attributes": [
+        "Coffee flavor",
+        "Bitterness",
+        "Not excessively sweet"
+      ],
+      "substitution_relationship": "Close substitute for Red Bull in some contexts"
+    },
+    "monster_ultra": {
+      "preferred_flavors": [
+        "Peach"
+      ],
+      "acceptable_flavors": [
+        "White"
+      ],
+      "role": "Secondary substitute",
+      "note": "Consumer reports avoiding sugar-free drinks but likes some Monster Ultra flavors. This apparent inconsistency is unresolved."
+    },
+    "killer_monster_triple_shot": {
+      "product_name_as_reported": "Killer Monster Triple Shot",
+      "exact_sku_verified": false,
+      "rarity_perception": "Very rare",
+      "search_priority": "First product checked when browsing",
+      "preferred_contexts": [
+        "Extreme fatigue",
+        "Physical activity requiring high alertness"
+      ],
+      "normal_purchase_frequency": "Occasional"
+    },
+    "other_brands": {
+      "reign": "Might try again",
+      "rockstar": "Generally avoided",
+      "celsius": "Generally avoided",
+      "five_hour_energy": "Tried but not regularly purchased",
+      "unfamiliar_brands": "May experiment when curious or needing caffeine"
+    },
+    "general_taste_preferences": {
+      "likes": [
+        "Bitterness",
+        "Carbonation",
+        "Pleasant aftertaste"
+      ],
+      "dislikes": [
+        "Excessive sweetness"
+      ]
+    }
+  },
+
+  "contextual_preferences": {
+    "skiing": {
+      "default": "Red Bull Original",
+      "habit_strength": "Very high",
+      "caffeine_need_required": false,
+      "exceptions": [
+        "Extreme fatigue",
+        "Large relative price difference against a highly liked alternative"
+      ]
+    },
+    "hiking": {
+      "consumption_probability_qualitative": "Very high",
+      "severe_fatigue_preference": "Killer Monster Triple Shot or Java Monster"
+    },
+    "cold_weather": {
+      "preferred": "Java Monster"
+    },
+    "hot_weather": {
+      "preferred": "Red Bull"
+    },
+    "early_morning": {
+      "preferred": "Java Monster unless skiing ritual dominates"
+    },
+    "afternoon": {
+      "preferred": "Red Bull over Java Monster"
+    },
+    "late_night": {
+      "default": "Avoid caffeine",
+      "exception": "Going out"
+    },
+    "extreme_fatigue": {
+      "preferred": [
+        "Java Monster",
+        "Killer Monster Triple Shot"
+      ]
+    }
+  },
+
+  "economic_behavior": {
+    "usual_single_drink_reference_price_usd": 3.0,
+    "red_bull_12oz_stated_normal_price_ceiling_usd": 4.5,
+    "price_ceiling_is_absolute": false,
+    "price_sensitivity": "Moderate and context dependent",
+    "income_sensitivity": {
+      "expected_response_to_reduced_disposable_income": "Reduce consumption somewhat",
+      "estimated_remaining_red_bulls_per_week": {
+        "min": 2,
+        "max": 3
+      }
+    },
+    "relative_price_behavior": {
+      "principle": "Price comparisons depend on how much the consumer likes each specific alternative",
+      "example": {
+        "context": "Pre-skiing",
+        "red_bull_original_usd": 5.5,
+        "java_monster_salted_caramel_usd": 3.5,
+        "monster_ultra_usd": 3.0,
+        "chosen": "Java Monster Salted Caramel",
+        "clarification": "Would choose Red Bull over the other listed alternatives, but Java Monster Salted Caramel is a highly valued substitute"
+      }
+    },
+    "promotions": {
+      "multi_buy_response": "Strong",
+      "typical_behavior": "Frequently buys three Red Bulls when local gas station offers substantial discount",
+      "stockpiling": true
+    },
+    "bulk_purchasing": {
+      "willing_to_buy_24_pack": true,
+      "example_pack": {
+        "brand": "Red Bull",
+        "quantity": 24,
+        "total_price_usd": 48,
+        "unit_price_usd": 2
+      },
+      "approximate_purchase_interval_months": 2,
+      "limiting_factor": "Infrequent Costco visits"
+    },
+    "convenience": {
+      "willing_to_pay_premium": true,
+      "long_lines_can_prevent_purchase": true,
+      "usual_weekday_purchase_opportunity": "Gas station on route to class",
+      "may_defer_to_supermarket": true
+    },
+    "inventory": {
+      "stocks_up_before_outdoor_activities": true,
+      "having_inventory_increases_consumption_likelihood": true,
+      "may_trade_spare_drinks": true,
+      "trade_items": [
+        "Food",
+        "Other drinks"
+      ]
+    }
+  },
+
+  "behavioral_factors": {
+    "brand_loyalty": {
+      "red_bull": "Very high",
+      "java_monster": "High",
+      "other_brands": "Low to moderate"
+    },
+    "novelty_seeking": {
+      "red_bull_flavors": "Very high",
+      "monster_products": "Moderate",
+      "unfamiliar_products": "High when genuinely novel",
+      "previously_tried_products": "Less likely to retry solely due to recommendation"
+    },
+    "social_influence": {
+      "friend_recommendations": "Limited",
+      "brand_media_influence": "Strong for Red Bull"
+    },
+    "shopping_attention_order": [
+      "Look for rare Killer Monster Triple Shot",
+      "Look for new Red Bull flavors",
+      "Look at Java Monster varieties",
+      "Compare appealing options and prices"
+    ],
+    "historical_preference_change": {
+      "previously": "Almost exclusively Red Bull",
+      "currently": "Red Bull plus substantial Java Monster consumption"
+    }
+  },
+
+  "decision_model": {
+    "architecture": [
+      "Evaluate daily activity and expected caffeine need",
+      "Evaluate habitual consumption triggers",
+      "Evaluate timing and sleep constraints",
+      "Check inventory and purchasing opportunities",
+      "Identify attractive products using context and attention",
+      "Evaluate product-specific taste and brand utility",
+      "Compare relative prices and promotions",
+      "Choose whether to consume, purchase, and how many units",
+      "Update inventory and consumption history"
+    ],
+    "rules": [
+      {
+        "id": "R01",
+        "condition": "Skiing planned",
+        "effect": "Strongly favor consuming Red Bull",
+        "exceptions": [
+          "Extreme fatigue",
+          "Highly attractive alternative at substantially lower price"
+        ]
+      },
+      {
+        "id": "R02",
+        "condition": "Cold early morning",
+        "effect": "Increase preference for Java Monster"
+      },
+      {
+        "id": "R03",
+        "condition": "Hot weather",
+        "effect": "Increase preference for Red Bull"
+      },
+      {
+        "id": "R04",
+        "condition": "Extreme fatigue before physical activity",
+        "effect": "Increase preference for Killer Monster Triple Shot and Java Monster"
+      },
+      {
+        "id": "R05",
+        "condition": "Close to expected bedtime",
+        "effect": "Increase probability of no caffeine",
+        "exceptions": [
+          "Going out"
+        ]
+      },
+      {
+        "id": "R06",
+        "condition": "Substantial multi-buy promotion",
+        "effect": "Increase purchase quantity and stockpiling"
+      },
+      {
+        "id": "R07",
+        "condition": "Favorite product unavailable",
+        "effect": "Consider familiar substitutes, novel drinks, or soda depending on caffeine need"
+      },
+      {
+        "id": "R08",
+        "condition": "High price premium over a highly liked substitute",
+        "effect": "Increase probability of switching to substitute"
+      },
+      {
+        "id": "R09",
+        "condition": "Energy drinks available in inventory",
+        "effect": "Increase convenience of consumption and reduce need for store purchase"
+      },
+      {
+        "id": "R10",
+        "condition": "Long checkout line or insufficient time",
+        "effect": "Increase probability of skipping or deferring purchase"
+      }
+    ],
+    "numeric_utility_weights": null,
+    "estimated_price_elasticity": null,
+    "probability_model_calibrated": false
+  },
+
+  "evaluation": {
+    "v0_2": {
+      "correct": 0,
+      "total": 3,
+      "accuracy": 0.0,
+      "scenarios": [
+        {
+          "id": "D",
+          "prediction": "Red Bull Original",
+          "actual": "Water or nothing",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "prediction": "Monster Ultra",
+          "actual": "Java Monster",
+          "correct": false
+        },
+        {
+          "id": "F",
+          "prediction": "Java Monster",
+          "actual": "Red Bull Original",
+          "correct": false
+        }
+      ]
+    },
+    "v0_7": {
+      "correct": 4,
+      "total": 5,
+      "accuracy": 0.8,
+      "scenarios": [
+        {
+          "id": "G",
+          "prediction": "Java Monster Salted Caramel",
+          "actual": "Java Monster Salted Caramel",
+          "correct": true
+        },
+        {
+          "id": "H",
+          "prediction": "New Red Bull flavor",
+          "actual": "New Red Bull flavor",
+          "correct": true
+        },
+        {
+          "id": "I",
+          "prediction": "Red Bull Original",
+          "actual": "Java Monster Salted Caramel",
+          "correct": false,
+          "post_test_clarification": "Consumer strongly prefers Red Bull over most alternatives at $5.50, but chooses Java Monster Salted Caramel at $3.50 because it is also highly liked"
+        },
+        {
+          "id": "J",
+          "prediction": "Buy three Red Bulls",
+          "actual": "Buy three Red Bulls",
+          "correct": true
+        },
+        {
+          "id": "K",
+          "prediction": "Killer Monster Triple Shot",
+          "actual": "Killer Monster Triple Shot",
+          "correct": true
+        }
+      ]
+    },
+    "v0_8": {
+      "evaluated": false,
+      "note": "Incorporates post-test clarification from Scenario I. No new blind test performed."
+    }
+  },
+
+  "uncertainties": [
+    "Exact quantitative product utility weights",
+    "Price elasticity and precise brand-switching thresholds",
+    "Actual purchase history versus hypothetical choices",
+    "Whether sugar-free avoidance applies to Monster Ultra",
+    "Exact identity and caffeine content of Killer Monster Triple Shot",
+    "Probabilities of purchasing novel products",
+    "Long-term consumption response to promotions",
+    "Consumption changes when inventory is abundant",
+    "Effects of competitor advertising"
+  ],
+
+  "simulation_guidance": {
+    "agent_role": "Individual consumer in an energy drink market",
+    "use_profile_as": "Behavioral context, not a deterministic lookup table",
+    "recommended_inputs": [
+      "Date and time",
+      "Weather",
+      "Activity",
+      "Sleep duration",
+      "Fatigue",
+      "Expected bedtime",
+      "Available products",
+      "Prices",
+      "Promotions",
+      "Current inventory",
+      "Store convenience",
+      "Budget"
+    ],
+    "recommended_outputs": [
+      "Purchase decision",
+      "Product selected",
+      "Purchase quantity",
+      "Consumption decision",
+      "Consumption quantity",
+      "Updated inventory",
+      "Decision rationale",
+      "Uncertainty"
+    ],
+    "aggregation_warning": "This consumer is not representative of the general energy drink market. Do not extrapolate market shares from this profile without representative population data and validation."
+  }
+}

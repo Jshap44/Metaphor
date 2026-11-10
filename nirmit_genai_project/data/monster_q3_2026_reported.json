@@ -1,0 +1,25 @@
+{
+  "company": "Monster Beverage Corporation",
+  "ticker": "MNST",
+  "period": "2026 Q3 (three months ended September 30, 2026)",
+  "comparison_period": "2025 Q3 (three months ended September 30, 2025)",
+  "release_date": "2026-11-05",
+  "source": "Monster Beverage Corporation 2026 Q3 press release and SEC Form 10-Q",
+  "press_release_url": "https://www.globenewswire.com/news-release/2026/11/05/3397113/10193/en/monster-beverage-reports-2026-third-quarter-financial-results.html",
+  "sec_10q_url": "https://www.sec.gov/Archives/edgar/data/865752/000110465926123503/mnst-20260930x10q.htm",
+  "sales_2026_thousand_usd": 2563053,
+  "sales_2025_thousand_usd": 2197139,
+  "energy_drinks_segment_2026_thousand_usd": 2373382,
+  "energy_drinks_segment_2025_thousand_usd": 2026843,
+  "energy_case_equivalents_2026_thousand": 304902,
+  "energy_case_equivalents_2025_thousand": 258387,
+  "average_net_sales_per_case_2026_usd": 8.30,
+  "average_net_sales_per_case_2025_usd": 8.35,
+  "case_equivalent_definition": "192-ounce case equivalents, entire company energy drink case sales",
+  "notes": [
+    "Consolidated sales include international operations and non-energy-drink activities.",
+    "A case equivalent is not necessarily the same as a retail can purchase.",
+    "Average net sales per case is a manufacturer metric, not consumer retail shelf price.",
+    "No claim is made that any hypothesized price, flavor or marketing shock caused the reported growth."
+  ]
+}

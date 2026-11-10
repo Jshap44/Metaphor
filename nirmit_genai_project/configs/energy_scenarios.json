@@ -1,0 +1,8 @@
+{
+  "baseline": {"price_change_pct": 0, "budget_change_pct": 0, "health_risk": 0, "stockout_pct": 0, "competitor_discount_pct": 0, "months": 6},
+  "price_hike": {"price_change_pct": 25, "budget_change_pct": 0, "health_risk": 0, "stockout_pct": 0, "competitor_discount_pct": 0, "months": 6},
+  "inflation_squeeze": {"price_change_pct": 15, "budget_change_pct": -25, "health_risk": 0, "stockout_pct": 0, "competitor_discount_pct": 0, "months": 6},
+  "health_risk_news": {"price_change_pct": 0, "budget_change_pct": 0, "health_risk": 0.8, "stockout_pct": 0, "competitor_discount_pct": 0, "months": 6},
+  "supply_shortage": {"price_change_pct": 8, "budget_change_pct": 0, "health_risk": 0, "stockout_pct": 35, "competitor_discount_pct": 0, "months": 6},
+  "rival_promotion": {"price_change_pct": 0, "budget_change_pct": 0, "health_risk": 0, "stockout_pct": 0, "competitor_discount_pct": 20, "months": 6}
+}

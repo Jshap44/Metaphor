@@ -1,0 +1,27 @@
+{
+  "Monster": {
+    "brand": "Monster", "owner": "Monster Beverage Corporation", "ticker": "MNST",
+    "benchmark": {"metric": "company_case_volume_millions", "prior": 258.387, "current": 304.902, "period": "Q3 2026 vs Q3 2025", "source_url": "https://www.sec.gov/Archives/edgar/data/865752/000110465926123503/mnst-20260930x10q.htm"},
+    "benchmark_note": "Company-wide energy drink case equivalents across Monster and strategic brands, NOT just the Monster branded product; 192 oz equivalent cases."
+  },
+  "Celsius": {
+    "brand": "Celsius", "owner": "Celsius Holdings", "ticker": "CELH",
+    "benchmark": {"metric": "brand_net_revenue_musd", "prior": 381.0, "current": 356.8, "period": "Q3 2026 vs Q3 2025", "source_url": "https://ir.celsiusholdingsinc.com/news/news-details/2026/Celsius-Holdings-Reports-Third-Quarter-2026-Financial-Results/default.aspx"},
+    "benchmark_note": "CELSIUS brand reported quarterly net revenue; disclosed drivers include SKU optimization, inventory/shipment timing, and softness in club channels. Not evidence of disliked flavors."
+  },
+  "Alani Nu": {
+    "brand": "Alani Nu", "owner": "Celsius Holdings", "ticker": "CELH",
+    "benchmark": {"metric": "brand_net_revenue_musd", "prior": 332.0, "current": 410.1, "period": "Q3 2026 vs Q3 2025", "source_url": "https://ir.celsiusholdingsinc.com/news/news-details/2026/Celsius-Holdings-Reports-Third-Quarter-2026-Financial-Results/default.aspx"},
+    "benchmark_note": "Alani Nu reported quarterly net revenue; management cites distribution expansion, limited-edition flavor release and consumer demand. Acquisitions and channel mix constrain causal comparison."
+  },
+  "Rockstar": {
+    "brand": "Rockstar", "owner": "Celsius Holdings (U.S. and Canada)", "ticker": "CELH",
+    "benchmark": null,
+    "benchmark_note": "Q3 2026 reported Rockstar revenue was $80.3m, but no comparable Q3 2025 brand baseline is included in this project. Do not calculate YoY growth."
+  },
+  "Red Bull": {"brand": "Red Bull", "owner": "Red Bull GmbH", "ticker": null, "benchmark": null, "benchmark_note": "No verified public quarterly brand-level earnings figure in this project; privately held company."},
+  "Ghost": {"brand": "Ghost", "owner": "Keurig Dr Pepper", "ticker": "KDP", "benchmark": null, "benchmark_note": "No verified standalone Q3 2026 brand-level benchmark in this project."},
+  "C4": {"brand": "C4", "owner": "Nutrabolt", "ticker": null, "benchmark": null, "benchmark_note": "No verified standalone Q3 2026 brand-level benchmark in this project."},
+  "Gorilla Mind": {"brand": "Gorilla Mind", "owner": null, "ticker": null, "benchmark": null, "benchmark_note": "No verified quarterly brand-level benchmark in this project."},
+  "Other": {"brand": "Other", "owner": null, "ticker": null, "benchmark": null, "benchmark_note": "Catch-all synthetic category, not a financial reporting entity."}
+}

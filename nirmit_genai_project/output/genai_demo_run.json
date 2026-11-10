@@ -1,0 +1,208 @@
+{
+  "scenario": {
+    "price_change_pct": 25,
+    "budget_change_pct": 0,
+    "flavor_appeal_pct": 0,
+    "stockout_pct": 0
+  },
+  "summary": {
+    "total": 15,
+    "choices": {
+      "less": 3,
+      "same": 8,
+      "switch": 2,
+      "quit": 2
+    },
+    "mean_units_after": 2.3,
+    "by_brand": {
+      "Monster": 5,
+      "Celsius": 3,
+      "Other": 2,
+      "Ghost": 3,
+      "None": 2
+    },
+    "caveat": "Aggregate of this sample only; no representative sampling, revenue inference, or validation is implied."
+  },
+  "records": [
+    {
+      "consumer_id": "demo_0000",
+      "source": "synthetic_demo",
+      "favorite_brand": "Monster",
+      "episode": 1,
+      "model": "offline",
+      "memory_enabled": true,
+      "choice": "less",
+      "quantity_after": 2.0,
+      "brand_after": "Monster",
+      "reason": "Offline assumption-based stand-in; not LLM-generated"
+    },
+    {
+      "consumer_id": "demo_0000",
+      "source": "synthetic_demo",
+      "favorite_brand": "Monster",
+      "episode": 2,
+      "model": "offline",
+      "memory_enabled": true,
+      "choice": "same",
+      "quantity_after": 4.0,
+      "brand_after": "Monster",
+      "reason": "Offline assumption-based stand-in; not LLM-generated"
+    },
+    {
+      "consumer_id": "demo_0000",
+      "source": "synthetic_demo",
+      "favorite_brand": "Monster",
+      "episode": 3,
+      "model": "offline",
+      "memory_enabled": true,
+      "choice": "less",
+      "quantity_after": 2.0,
+      "brand_after": "Monster",
+      "reason": "Offline assumption-based stand-in; not LLM-generated"
+    },
+    {
+      "consumer_id": "demo_0001",
+      "source": "synthetic_demo",
+      "favorite_brand": "Celsius",
+      "episode": 1,
+      "model": "offline",
+      "memory_enabled": true,
+      "choice": "same",
+      "quantity_after": 1.0,
+      "brand_after": "Celsius",
+      "reason": "Offline assumption-based stand-in; not LLM-generated"
+    },
+    {
+      "consumer_id": "demo_0001",
+      "source": "synthetic_demo",
+      "favorite_brand": "Celsius",
+      "episode": 2,
+      "model": "offline",
+      "memory_enabled": true,
+      "choice": "same",
+      "quantity_after": 1.0,
+      "brand_after": "Celsius",
+      "reason": "Offline assumption-based stand-in; not LLM-generated"
+    },
+    {
+      "consumer_id": "demo_0001",
+      "source": "synthetic_demo",
+      "favorite_brand": "Celsius",
+      "episode": 3,
+      "model": "offline",
+      "memory_enabled": true,
+      "choice": "same",
+      "quantity_after": 1.0,
+      "brand_after": "Celsius",
+      "reason": "Offline assumption-based stand-in; not LLM-generated"
+    },
+    {
+      "consumer_id": "demo_0002",
+      "source": "synthetic_demo",
+      "favorite_brand": "Monster",
+      "episode": 1,
+      "model": "offline",
+      "memory_enabled": true,
+      "choice": "switch",
+      "quantity_after": 0.0,
+      "brand_after": "Other",
+      "reason": "Offline assumption-based stand-in; not LLM-generated"
+    },
+    {
+      "consumer_id": "demo_0002",
+      "source": "synthetic_demo",
+      "favorite_brand": "Monster",
+      "episode": 2,
+      "model": "offline",
+      "memory_enabled": true,
+      "choice": "less",
+      "quantity_after": 3.5,
+      "brand_after": "Monster",
+      "reason": "Offline assumption-based stand-in; not LLM-generated"
+    },
+    {
+      "consumer_id": "demo_0002",
+      "source": "synthetic_demo",
+      "favorite_brand": "Monster",
+      "episode": 3,
+      "model": "offline",
+      "memory_enabled": true,
+      "choice": "same",
+      "quantity_after": 7.0,
+      "brand_after": "Monster",
+      "reason": "Offline assumption-based stand-in; not LLM-generated"
+    },
+    {
+      "consumer_id": "demo_0003",
+      "source": "synthetic_demo",
+      "favorite_brand": "Ghost",
+      "episode": 1,
+      "model": "offline",
+      "memory_enabled": true,
+      "choice": "same",
+      "quantity_after": 5.0,
+      "brand_after": "Ghost",
+      "reason": "Offline assumption-based stand-in; not LLM-generated"
+    },
+    {
+      "consumer_id": "demo_0003",
+      "source": "synthetic_demo",
+      "favorite_brand": "Ghost",
+      "episode": 2,
+      "model": "offline",
+      "memory_enabled": true,
+      "choice": "same",
+      "quantity_after": 5.0,
+      "brand_after": "Ghost",
+      "reason": "Offline assumption-based stand-in; not LLM-generated"
+    },
+    {
+      "consumer_id": "demo_0003",
+      "source": "synthetic_demo",
+      "favorite_brand": "Ghost",
+      "episode": 3,
+      "model": "offline",
+      "memory_enabled": true,
+      "choice": "quit",
+      "quantity_after": 0.0,
+      "brand_after": "None",
+      "reason": "Offline assumption-based stand-in; not LLM-generated"
+    },
+    {
+      "consumer_id": "demo_0004",
+      "source": "synthetic_demo",
+      "favorite_brand": "Ghost",
+      "episode": 1,
+      "model": "offline",
+      "memory_enabled": true,
+      "choice": "same",
+      "quantity_after": 3.0,
+      "brand_after": "Ghost",
+      "reason": "Offline assumption-based stand-in; not LLM-generated"
+    },
+    {
+      "consumer_id": "demo_0004",
+      "source": "synthetic_demo",
+      "favorite_brand": "Ghost",
+      "episode": 2,
+      "model": "offline",
+      "memory_enabled": true,
+      "choice": "quit",
+      "quantity_after": 0.0,
+      "brand_after": "None",
+      "reason": "Offline assumption-based stand-in; not LLM-generated"
+    },
+    {
+      "consumer_id": "demo_0004",
+      "source": "synthetic_demo",
+      "favorite_brand": "Ghost",
+      "episode": 3,
+      "model": "offline",
+      "memory_enabled": true,
+      "choice": "switch",
+      "quantity_after": 0.0,
+      "brand_after": "Other",
+      "reason": "Offline assumption-based stand-in; not LLM-generated"
+    }
+  ]
+}

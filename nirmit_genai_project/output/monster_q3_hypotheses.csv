@@ -1,0 +1,10 @@
+hypothesis,simulated_volume_change_pct,simulated_retail_spend_change_pct,observed_company_case_volume_growth_pct,direction_matches,descriptive_gap_pp_not_model_error
+No change (control),0.0,0.0,18.002,False,-18.002
+Monster price +10%,-3.321,6.347,18.002,False,-21.323
+Disliked flavor / weaker appeal,-8.263,-8.263,18.002,False,-26.265
+Well-received flavor,12.721,12.721,18.002,True,-5.281
+Marketing / awareness +25%,8.967,8.967,18.002,True,-9.035
+Student spending budgets -15%,-9.654,-9.654,18.002,False,-27.656
+Competitor discount 15%,-4.123,-4.123,18.002,False,-22.125
+Monster product stockout 15%,-9.75,-9.75,18.002,False,-27.752
+"Price +10%, flavor +20%, marketing +25%",14.127,25.539,18.002,True,-3.875

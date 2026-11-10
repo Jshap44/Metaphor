@@ -1,0 +1,10 @@
+{
+  "dataset_id": "socratesft/SocSci210",
+  "max_rows": 10000,
+  "seed": 42,
+  "validation_fraction": 0.2,
+  "minimum_rows_per_study_task": 20,
+  "max_classes_per_study_task": 30,
+  "agent_memory_retrieval_k": 4,
+  "agent_reflection_every": 4
+}

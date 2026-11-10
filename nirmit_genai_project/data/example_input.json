@@ -1,0 +1,17 @@
+{
+  "sample_id": 0,
+  "participant": 0,
+  "demographic": {
+    "age": 20,
+    "gender": "Female",
+    "ideology": "moderate",
+    "education": "High school"
+  },
+  "stimuli": "A city proposes adding a new public park.",
+  "response": 0,
+  "condition_num": 0,
+  "task_num": 0,
+  "prompt": "How strongly do you support the park? Select 0, 1 or 2.",
+  "reasoning": "",
+  "study_id": "DEMO_SYNTHETIC"
+}

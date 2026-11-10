@@ -1,0 +1,306 @@
+{
+  "statistical": {
+    "n": 90,
+    "train_n": 67,
+    "test_n": 23,
+    "accuracy": 0.6956521739130435,
+    "balanced_accuracy": 0.6611111111111111,
+    "confusion_labels": [
+      "less",
+      "quit",
+      "same",
+      "switch"
+    ],
+    "confusion_matrix": [
+      [
+        2,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        11,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        3
+      ]
+    ],
+    "test_results": [
+      {
+        "consumer_id": "demo_0040",
+        "actual": "same",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0022",
+        "actual": "same",
+        "predicted": "switch"
+      },
+      {
+        "consumer_id": "demo_0055",
+        "actual": "same",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0070",
+        "actual": "less",
+        "predicted": "less"
+      },
+      {
+        "consumer_id": "demo_0000",
+        "actual": "same",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0026",
+        "actual": "switch",
+        "predicted": "switch"
+      },
+      {
+        "consumer_id": "demo_0039",
+        "actual": "same",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0065",
+        "actual": "same",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0010",
+        "actual": "switch",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0044",
+        "actual": "same",
+        "predicted": "less"
+      },
+      {
+        "consumer_id": "demo_0081",
+        "actual": "same",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0035",
+        "actual": "same",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0056",
+        "actual": "less",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0086",
+        "actual": "same",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0012",
+        "actual": "same",
+        "predicted": "less"
+      },
+      {
+        "consumer_id": "demo_0004",
+        "actual": "same",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0018",
+        "actual": "less",
+        "predicted": "switch"
+      },
+      {
+        "consumer_id": "demo_0028",
+        "actual": "same",
+        "predicted": "quit"
+      },
+      {
+        "consumer_id": "demo_0049",
+        "actual": "same",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0062",
+        "actual": "less",
+        "predicted": "less"
+      },
+      {
+        "consumer_id": "demo_0073",
+        "actual": "same",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0069",
+        "actual": "switch",
+        "predicted": "switch"
+      },
+      {
+        "consumer_id": "demo_0076",
+        "actual": "switch",
+        "predicted": "switch"
+      }
+    ],
+    "warning": "Held-out stated intentions only; synthetic demo scores do not validate real-world purchase predictions."
+  },
+  "test_ids": [
+    "demo_0040",
+    "demo_0022",
+    "demo_0055",
+    "demo_0070",
+    "demo_0000",
+    "demo_0026",
+    "demo_0039",
+    "demo_0065",
+    "demo_0010",
+    "demo_0044",
+    "demo_0081",
+    "demo_0035",
+    "demo_0056",
+    "demo_0086",
+    "demo_0012",
+    "demo_0004",
+    "demo_0018",
+    "demo_0028",
+    "demo_0049",
+    "demo_0062",
+    "demo_0073",
+    "demo_0069",
+    "demo_0076"
+  ],
+  "offline": {
+    "n": 23,
+    "accuracy": 0.5652173913043478,
+    "test_results": [
+      {
+        "consumer_id": "demo_0040",
+        "actual": "same",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0022",
+        "actual": "same",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0055",
+        "actual": "same",
+        "predicted": "less"
+      },
+      {
+        "consumer_id": "demo_0070",
+        "actual": "less",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0000",
+        "actual": "same",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0026",
+        "actual": "switch",
+        "predicted": "less"
+      },
+      {
+        "consumer_id": "demo_0039",
+        "actual": "same",
+        "predicted": "less"
+      },
+      {
+        "consumer_id": "demo_0065",
+        "actual": "same",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0010",
+        "actual": "switch",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0044",
+        "actual": "same",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0081",
+        "actual": "same",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0035",
+        "actual": "same",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0056",
+        "actual": "less",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0086",
+        "actual": "same",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0012",
+        "actual": "same",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0004",
+        "actual": "same",
+        "predicted": "less"
+      },
+      {
+        "consumer_id": "demo_0018",
+        "actual": "less",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0028",
+        "actual": "same",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0049",
+        "actual": "same",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0062",
+        "actual": "less",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0073",
+        "actual": "same",
+        "predicted": "same"
+      },
+      {
+        "consumer_id": "demo_0069",
+        "actual": "switch",
+        "predicted": "switch"
+      },
+      {
+        "consumer_id": "demo_0076",
+        "actual": "switch",
+        "predicted": "same"
+      }
+    ]
+  },
+  "warning": "Offline is not a generative model. LLM predictions are actual API calls only in llm mode. Dataset must be independently sourced for real validity."
+}

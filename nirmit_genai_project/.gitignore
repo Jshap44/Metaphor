@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.pytest_cache/
+artifacts/
+data/real_*.jsonl
+*.pyc

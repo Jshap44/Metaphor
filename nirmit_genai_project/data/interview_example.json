@@ -1,0 +1,19 @@
+{
+  "consumer_id": "interview_001",
+  "source": "single_interview",
+  "occupation": "student",
+  "budget": "comfortable",
+  "weekly_drinks": 7,
+  "favorite_brand": "Ghost",
+  "alternative_brand": "C4",
+  "price_per_serving": 1.3,
+  "max_price_per_serving": 4.0,
+  "loyalty": 0.85,
+  "price_sensitivity": 0.35,
+  "health_concern": 0.7,
+  "sugar_free_only": true,
+  "stock_at_home": true,
+  "substitute_preworkout": true,
+  "convenience_sensitivity": 0.8,
+  "interview_notes": "Workout-oriented; uses Ghost Legend pre-workout; prefers sugar-free, transparent ingredients, and unique flavors. C4 is a convenient backup. Likely to keep pre-workout after a price increase; may switch canned brands. Price per serving is an illustrative assumption, NOT reported in the interview."
+}

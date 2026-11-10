@@ -1,0 +1,10 @@
+brand,favorites,baseline_quarterly_units,simulated_volume_change_pct,simulated_retail_spend_change_pct,observed_growth_pct,observed_metric,source_url,comparability
+Monster,74,3926.0,-3.709,5.92,18.002,company_case_volume_millions,https://www.sec.gov/Archives/edgar/data/865752/000110465926123503/mnst-20260930x10q.htm,NOT DIRECTLY COMPARABLE
+Celsius,104,5499.0,-3.881,5.731,-6.352,brand_net_revenue_musd,https://ir.celsiusholdingsinc.com/news/news-details/2026/Celsius-Holdings-Reports-Third-Quarter-2026-Financial-Results/default.aspx,NOT DIRECTLY COMPARABLE
+Alani Nu,29,1495.0,-4.172,5.411,23.524,brand_net_revenue_musd,https://ir.celsiusholdingsinc.com/news/news-details/2026/Celsius-Holdings-Reports-Third-Quarter-2026-Financial-Results/default.aspx,NOT DIRECTLY COMPARABLE
+Rockstar,25,1222.0,-4.438,5.118,,,,NOT DIRECTLY COMPARABLE
+Red Bull,65,3588.0,-3.764,5.86,,,,NOT DIRECTLY COMPARABLE
+Ghost,97,5213.0,-3.787,5.834,,,,NOT DIRECTLY COMPARABLE
+C4,79,3627.0,-4.139,5.447,,,,NOT DIRECTLY COMPARABLE
+Gorilla Mind,35,1729.0,-4.067,5.527,,,,NOT DIRECTLY COMPARABLE
+Other,30,1638.0,-3.959,5.645,,,,NOT DIRECTLY COMPARABLE
